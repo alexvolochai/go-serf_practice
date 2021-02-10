@@ -459,6 +459,9 @@
 
 .holder {
     background-image: url(../img/travel-bg.png);
+    &.sleep {
+        background-image: url(../img/frangipani.png);
+    }
     background-position: bottom right;
     background-repeat: no-repeat;
     .slider-arrows {
@@ -490,6 +493,7 @@
     min-height: 320px;
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: contain;
     img {
         padding-left: 24px;
     }
